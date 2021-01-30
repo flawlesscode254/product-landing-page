@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Landing Page</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.2.5/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.2.5/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-database.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-functions.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-storage.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-remote-config.js"></script>
+    <script defer src="/__/firebase/8.2.5/firebase-performance.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <link rel="stylesheet" href="style.css">
+
+ 
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+          <img src="./img/logo.svg" alt="logo">
+          <h4 class="logo">Three Dots</h4>
+      </div>
+      <nav>
+          <ul class="nav-links">
+              <li><a class="nav-link" href="#">Specs</a></li>
+              <li><a class="nav-link" href="#">Products</a></li>
+              <li><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+      </nav>
+      <div class="cart">
+          <img src="./img/cart.svg" alt="cart">
+      </div>
+  </header>
+
+  <main>
+     <section class="presentation">
+         <div class="introduction">
+             <div class="intro-text">
+                 <h1>Laptop for the future</h1>
+                 <p>The new 14 inch bezeless display offering 
+                     a 4k display with touch screen.
+                 </p>
+             </div>
+             <div class="cta">
+                 <button class="cta-select">14 Inch</button>
+                 <button class="cta-add">Add To Cart</button>
+             </div>
+         </div>
+         <div class="cover">
+             <img src="./img/matebook.png" alt="matebook">
+         </div>
+     </section>
+
+     <div class="laptop-select">
+         <img src="./img/arrow-left.svg" alt="">
+         <img src="./img/dot.svg" alt="">
+         <img src="./img/dot.svg" alt="">
+         <img src="./img/dot-full.svg" alt="">
+         <img src="./img/arrow-right.svg" alt="">
+     </div>
+
+     <img class="big-circle" src="./img/big-eclipse.svg" alt="">
+     <img class="medium-circle" src="./img/mid-eclipse.svg" alt="">
+     <img class="small-circle" src="./img/small-eclipse.svg" alt="">
+  </main>
+  </body>
+</html>
